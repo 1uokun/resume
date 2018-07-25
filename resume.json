@@ -72,7 +72,7 @@
       "stack": ["React", "Less", "Webpack", "Redux", "Typescript", "Node"],
       "description": [
         "开发全新群视频PC端和移动端，负责除直播流播放外的个人中心、注册签约、榜单、设置、分享等功能，涉及大量客户端接口的统一管理、维护和测试",
-        "开发`回音`语音直播平台，接入IM SDK解析`protobuf`实现网页版直播间，基于群视频的经验进一步优化项目的开发效率和用户体验，做到了三个月内上线ready状态",
+        "开发`回音`语音直播平台，接入IM SDK解析`protobuf`实现网页版直播间聊天、送礼，做到了三个月内上线ready状态",
         "负责群视频、花样B测签约平台开发，部分oa监管后台开发",
         "支持群视频、花样直播、NOW直播运营活动开发"
       ]
@@ -140,7 +140,7 @@
     "type": "backend",
     "item": [
       {
-      "summary": "`Node`",
+      "summary": "`Python`",
       "description": [
         "做过爬取搜狐军事新闻的爬虫，做过爬取百度单词音频的爬虫，做过Django，做过一键上传七牛云脚本",
         "使用Python配合Mininet实现SDN",
@@ -152,7 +152,7 @@
     "item": [
       "react-input-component",
       "vscode plugin",
-      "能够使用 `Markdown` 编写博客，具备良好的技术交流能力"
+      "使用 `Markdown` 编写博客、翻译国外技术文章"
     ]
   }]
 }
