@@ -5,7 +5,7 @@
   "resume_title": "刘怡涛 - 个人简历",
   "name": "刘怡涛",
   "repo": "https://github.com/leoeatle/resume.git",
-  "job_description": ["Web Developing Engineer"],
+  "job_description": ["前端工程师"],
   "contact": {
     "email": "liuyitao811@hotmail.com",
     "wechat": {
@@ -20,7 +20,7 @@
       "id": "LeoEatle"
     },
     "blog": {
-      "url": "http://istillhaveboobs.com"
+      "url": "http://leoeatle.github.io/techBlog"
     }
   },
   "links": [{
@@ -143,7 +143,6 @@
       "summary": "`Python`",
       "description": [
         "做过爬取搜狐军事新闻的爬虫，做过爬取百度单词音频的爬虫，做过Django，做过一键上传七牛云脚本",
-        "使用Python配合Mininet实现SDN",
         "使用Python在Leetcode上进行算法编程练习"
       ]
     }]
@@ -152,7 +151,8 @@
     "item": [
       "react-input-component",
       "vscode plugin",
-      "使用 `Markdown` 编写博客、翻译国外技术文章"
+      "[Hexo博客](leoeatle.github.io/techBlog)，Github托管，travisCI构建",
+      "独自参加Facebook 2018 F8大会"
     ]
   }]
 }
