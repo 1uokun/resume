@@ -104,4 +104,4 @@ gulp.task('deploy', ['build-for-deploy'], function() {
 });
 
 /****************** Default ****************/
-gulp.task('default', ['server', 'watch']);
+gulp.task('default', ['watch']);

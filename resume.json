@@ -57,9 +57,8 @@
       "score": "78"
     }],
     "description": [
-      "国际学院**全英教学**，使用英文经典计算机教材",
-      "能浏览Github、StackOverFlow、Medium、Codepen等社区，能查阅英文文档、关注国外技术最新动态",
-      "更新两个博客，技术博客（Hexo）和生活博客（Hugo）"
+      "国际学院采用`全英教学`，使用英文经典计算机教材",
+      "能浏览Github、StackOverFlow、Medium、Codepen等社区，能查阅英文文档、关注国外技术最新动态"
     ]
   }],
   "experience": [
@@ -133,12 +132,21 @@
       "description": [
         "深入了解Webview和Native交互原理",
         "负责开发通用客户端API联调方案",
-        "关注业界跨平台解决方案，了解React Native和Flutter"
+        "关注业界跨平台解决方案，了解React Native、Electron和Flutter"
       ]
     }]
   }, {
     "type": "backend",
     "item": [
+      {
+        "summary": "`Node`",
+        "description": [
+          "Websocket实现多人在线小游戏",
+          "参与开发工作流cli工具，包括一键发布功能，",
+          "whistle代理，`docker`实现'无限'测试环境计划预研中",
+          "[tinypng-cli](https://github.com/LeoEatle/tinypng-cli)"
+        ]
+      },
       {
       "summary": "`Python`",
       "description": [
@@ -151,7 +159,8 @@
     "item": [
       "react-input-component",
       "vscode plugin",
-      "[Hexo博客](leoeatle.github.io/techBlog)，Github托管，travisCI构建",
+      "Hexo技术博客，Github托管，travisCI构建",
+      "Hugo生活博客，腾讯云托管",
       "独自参加Facebook 2018 F8大会"
     ]
   }]
