@@ -4,7 +4,7 @@ var plugins = require('gulp-load-plugins')();
 var path = require('path');
 var gls = require('gulp-live-server');
 
-var server = gls.static('dist', 8000);
+var server = gls.static('dist', 12300);
 
 /**************** Utility **********************/
 function highlight(str) {
@@ -33,6 +33,7 @@ function getLocals() {
 }
 
 gulp.task('jade', function() {
+  console.log('jade');
   return gulp.src('./src/jade/index.jade')
     .pipe(plugins.jade({ locals: getLocals() }))
     .pipe(gulp.dest('./dist/'));

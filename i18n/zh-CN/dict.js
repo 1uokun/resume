@@ -1,5 +1,6 @@
 module.exports = {
     experience_type: {
+        "job": "",
         "internship": "（实习）"
     },
     skill_type: {
