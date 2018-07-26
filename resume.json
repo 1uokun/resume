@@ -118,23 +118,29 @@
         "HTTP请求一般采用`Axio`以Promise方式调用，Node端采用`async/await`",
         "团队中使用`Prettier`规范代码格式，并且加入到`git hook`中强制格式化"   
       ]
-    }, {
-      "summary": "工程化",
-      "description": [
-        "提倡保持使用最新版本的工具库，采用Webpack4改造构建，利用Webpack分析插件优化构建时间",
-        "采用`React16` + `Dynamic Polyfill`方案，保证现代浏览器的兼容性（Map/Set）的同时利用React16的新特性，如错误边界检测和Array",
-        "团队采用统一的Redux模板，熟悉Redux设计范式，采用Immutable优化render性能，也有部分Mobx经验",
-        "接入`sentry`监控现网js错误，接入速度上报平台监控页面性能，利用`Skeleton`和动态`import`提高用户体验",
-        "负责开发维护团队公共React组件库，使用storybook作为demo展示，使用babel-plugin-import实现按需加载"
-      ]
-    }, {
-      "summary": "Native交互相关",
-      "description": [
-        "深入了解Webview和Native交互原理",
-        "负责开发通用客户端API联调方案",
-        "关注业界跨平台解决方案，了解React Native、Electron和Flutter"
-      ]
     }]
+    },
+    {
+      "type": "frontend",
+      "item": [
+        {
+          "summary": "`工程化实践`",
+          "description": [
+            "提倡保持使用最新版本的工具库，采用Webpack4改造构建，利用Webpack分析插件优化构建时间",
+            "采用`React16` + `Dynamic Polyfill`方案，保证现代浏览器的兼容性（Map/Set）的同时利用React16的新特性，如错误边界检测和Array",
+            "团队采用统一的Redux模板，熟悉Redux设计范式，采用Immutable优化render性能，也有部分Mobx经验",
+            "接入`sentry`监控现网js错误，接入速度上报平台监控页面性能，利用`Skeleton`和动态`import`提高用户体验",
+            "负责开发维护团队公共React组件库，使用storybook作为demo展示，使用babel-plugin-import实现按需加载"
+          ]
+        }, {
+          "summary": "`Native交互相关`",
+          "description": [
+            "深入了解Webview和Native交互原理",
+            "负责开发通用客户端API联调方案",
+            "关注业界跨平台解决方案，了解React Native、Electron和Flutter"
+          ]
+        }
+      ]
   }, {
     "type": "backend",
     "item": [
@@ -143,24 +149,15 @@
         "description": [
           "Websocket实现多人在线小游戏",
           "参与开发工作流cli工具，包括一键发布功能，",
-          "whistle代理，`docker`实现'无限'测试环境计划预研中",
+          "whistle代理方便测试客户端抓包",
           "[tinypng-cli](https://github.com/LeoEatle/tinypng-cli)"
         ]
-      },
-      {
-      "summary": "`Python`",
-      "description": [
-        "做过爬取搜狐军事新闻的爬虫，做过爬取百度单词音频的爬虫，做过Django，做过一键上传七牛云脚本",
-        "使用Python在Leetcode上进行算法编程练习"
-      ]
-    }]
+      }]
   }, {
     "type": "miscellaneous",
     "item": [
       "react-input-component",
-      "vscode plugin",
       "Hexo技术博客，Github托管，travisCI构建",
-      "Hugo生活博客，腾讯云托管",
       "独自参加Facebook 2018 F8大会"
     ]
   }]
