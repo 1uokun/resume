@@ -76,7 +76,7 @@
       "stack": ["React", "Less", "Webpack", "Redux", "Typescript", "Node"],
       "description": [
         "开发`新QQ群视频`PC端和移动端，负责除直播流播放外的个人中心、注册签约、榜单、设置、分享等功能，涉及大量客户端接口的统一管理、维护和测试",
-        "从0到1开发`回音`语音直播平台，接入IM SDK解析`protobuf`实现网页版直播间聊天、送礼，做到了三个月内上线ready状态",
+        "从0到1开发`回音`语音直播平台，接入`IM SDK`解析`protobuf`实现网页版直播间聊天、送礼，做到了三个月内上线ready状态",
         "负责B测签约平台开发，部分oa监管后台开发",
         "支持部分花样直播、NOW直播`运营活动开发`"
       ]
@@ -90,7 +90,7 @@
       "stack": ["React", "Less", "Webpack", "Redux"],
       "description": [
         "负责花样直播PC端、移动端中部分Webview内嵌页",
-        "负责Steamer, 一个基于Webpack的脚手架模板的维护和开发，支持多页面构建、离线包压缩插件"
+        "负责Steamer, 一个基于`Webpack`的脚手架模板的维护和开发，支持多页面构建、离线包压缩插件"
       ]
     },
     {
@@ -114,36 +114,36 @@
         {
           "summary": "`CSS`",
           "description": [
-            "熟悉less/scss、css module",
-            "利用px2rem做到响应式布局和各端适配，有适配1px问题/iphone X的经验",
-            "负责过较为复杂的动画实现，包括帧动画"
+            "熟悉`less/scss`、`css module`",
+            "利用`px2rem`做到响应式布局和各端适配，有适配1px问题/iphone X的经验",
+            "负责过较为复杂的动画实现，包括`帧动画`"
           ]
         },
         {
           "summary": "`工程化实践`",
           "description": [
-            "积极使用最新版本的工具库，采用Webpack4改造构建，利用happypack提升构建速度，利用Webpack分析插件优化包体积",
+            "积极使用最新版本的工具库，采用Webpack4改造构建，利用`happypack`提升构建速度，利用CommonChunk、Webpack分析插件优化包体积",
             "采用`React16` + `Dynamic Polyfill`方案，保证现代浏览器的兼容性（Map/Set）的同时利用React16的新特性，如错误边界检测和Fragment",
-            "团队采用统一的Redux模板，熟悉Redux设计范式",
+            "团队采用统一的`Redux`模板，熟悉`Redux`设计范式",
             "接入`sentry`监控现网js错误，接入速度上报平台监控页面性能",
-            "负责开发维护团队公共React组件库，负责设计目录结构、部分组件接口、构建、demo展示、npm打包发布"
+            "负责开发维护团队公共`React组件库`，负责设计目录结构、部分组件接口、构建、demo展示、npm打包发布"
           ]
         },
         {
           "summary": "`性能优化`",
           "description": [
-            "注重用户体验上的优化，比如预渲染html、占位skeleton、transition动画，使过渡更自然",
+            "注重用户体验上的优化，比如预渲染html、占位`skeleton`、transition动画，使过渡更自然",
             "利用`动态import`分离较大的代码快，按需加载，提升首屏性能",
-            "Redux + Immutable + pure render装饰器配合提升redux渲染性能",
-            "熟悉离线包方案原理，了解一些依赖客户端的优化，如预加载webview容器"
+            "`Redux` + `Immutable` + pure render`装饰器`配合提升redux渲染性能",
+            "熟悉`离线包`方案原理，了解一些依赖客户端的优化，如预加载webview容器"
           ]
         },
         {
           "summary": "`Native交互相关`",
           "description": [
-            "了解Webview和Native交互原理",
-            "负责开发通用客户端API联调方案",
-            "关注业界跨平台解决方案，了解React Native、Electron和Flutter"
+            "了解`Webview`和`Native`交互原理",
+            "负责开发通用客户端`API联调方案`",
+            "关注业界跨平台解决方案，了解React Native、`Electron`和`Flutter`"
           ]
         }
       ]
@@ -152,7 +152,7 @@
       "type": "miscellaneous",
       "item": [
         "服务端配置`whistle`代理，方便客户端一键切换前端测试环境",
-        "参与开发工作流cli工具，包括一键发布功能、docker实现单机器多测试环境部署",
+        "参与开发工作流cli工具，包括一键发布功能、`docker`实现单机器多测试环境部署",
         "`Websocket`实现多人在线小游戏flappy bird",
         "tiny-png一键解决压缩图片、一键上传七牛图床、爬取百度翻译一键转化英文单词列表为mp3等自制实用cli工具"
       ]
