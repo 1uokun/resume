@@ -1,4 +1,3 @@
-
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
@@ -23,44 +22,50 @@
       "url": "http://leoeatle.github.io/techBlog"
     }
   },
-  "links": [{
-    "type": "repo",
-    "url": "https://github.com/LeoEatle/resume"
-
-  }, {
-    "type": "pdf",
-    "url": "static/leoeatle.pdf"
-
-  }, {
-    "type": "zhihu",
-    "url": "https://www.zhihu.com/people/leoeatle"
-  }, {
-    "type": "doubanbook",
-    "url": "https://www.douban.com/people/58703417/"
-  }],
-   "education": [{
-    "type": "undergraduate",
-    "name": "暨南大学",
-    "major": "计算机科学技术（全英）",
-    "start": "2013",
-    "end": "2017",
-    "honor": [
-      "微信小程序内测期间，参加第一届爱范儿&SegmentFault举办的`黑客马拉松` 24小时开发微信小程序比赛",
-      "随后参加第二届，并获得奖项"
-    ]
-  }],
-  "language": [{
-    "type": "english",
-    "certificate": [{
-      "type": "Tofel",
-      "full": "120",
-      "score": "78"
-    }],
-    "description": [
-      "国际学院采用`全英教学`，使用英文经典计算机教材",
-      "能浏览Github、StackOverFlow、Medium、Codepen等社区，能查阅英文文档、关注国外技术最新动态"
-    ]
-  }],
+  "links": [
+    {
+      "type": "repo",
+      "url": "https://github.com/LeoEatle/resume"
+    },
+    {
+      "type": "pdf",
+      "url": "static/leoeatle.pdf"
+    },
+    {
+      "type": "zhihu",
+      "url": "https://www.zhihu.com/people/leoeatle"
+    },
+    {
+      "type": "doubanbook",
+      "url": "https://www.douban.com/people/58703417/"
+    }
+  ],
+  "education": [
+    {
+      "type": "undergraduate",
+      "name": "暨南大学",
+      "major": "计算机科学技术（全英）",
+      "start": "2013",
+      "end": "2017",
+      "honor": [
+        "微信小程序内测期间，连续参加`爱范儿`&`SegmentFault`举办的`黑客马拉松` 24小时开发微信小程序比赛",
+        "react-input-component解决中文输入的`onChange`问题，关注交互细节体验",
+        "自制多种实用cli工具，激发geek创造力",
+        "`Hexo`技术博客，`Github`托管，`travisCI`自动构建，阅读知名库源码，注重知识沉淀",
+        "独自参加`Facebook 2018 F8`大会，社交能力得到锻炼"
+      ]
+    }
+  ],
+  "language": [
+    {
+      "type": "english",
+      "certificate": [],
+      "description": [
+        "国际学院采用全英教学，使用英文经典计算机教材",
+        "能浏览Github、StackOverFlow、Medium、Codepen等社区，能查阅英文文档、关注国外技术最新动态"
+      ]
+    }
+  ],
   "experience": [
     {
       "type": "job",
@@ -70,10 +75,10 @@
       "name": "前端工程师",
       "stack": ["React", "Less", "Webpack", "Redux", "Typescript", "Node"],
       "description": [
-        "开发全新群视频PC端和移动端，负责除直播流播放外的个人中心、注册签约、榜单、设置、分享等功能，涉及大量客户端接口的统一管理、维护和测试",
-        "开发`回音`语音直播平台，接入IM SDK解析`protobuf`实现网页版直播间聊天、送礼，做到了三个月内上线ready状态",
-        "负责群视频、花样B测签约平台开发，部分oa监管后台开发",
-        "支持群视频、花样直播、NOW直播运营活动开发"
+        "开发`新QQ群视频`PC端和移动端，负责除直播流播放外的个人中心、注册签约、榜单、设置、分享等功能，涉及大量客户端接口的统一管理、维护和测试",
+        "从0到1开发`回音`语音直播平台，接入IM SDK解析`protobuf`实现网页版直播间聊天、送礼，做到了三个月内上线ready状态",
+        "负责B测签约平台开发，部分oa监管后台开发",
+        "支持部分花样直播、NOW直播`运营活动开发`"
       ]
     },
     {
@@ -84,81 +89,73 @@
       "name": "前端工程师",
       "stack": ["React", "Less", "Webpack", "Redux"],
       "description": [
-        "负责手机QQ附近动态、花样直播PC端、移动端中部分Webview内嵌页",
+        "负责花样直播PC端、移动端中部分Webview内嵌页",
         "负责Steamer, 一个基于Webpack的脚手架模板的维护和开发，支持多页面构建、离线包压缩插件"
       ]
     },
     {
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "SegmentFault",
-    "start": "2016.10",
-    "end": "2016.12",
-    "name": "前端工程师",
-    "stack": ["PHP", "Twig","Gulp", "Coffeescript", "Bootstrap"],
-    "description": [
-      "主站基于PHP+twig+bootstrap，负责开发新模块和维护工作",
-      "改造Coffeecript组件，用于标签输入的检查、拉取列表、更新",
-      "开发Geek交友微信小程序（未上线）"
-    ]
-  }
-],
-  "skills": [{
-    "type": "frontend",
-    "item": [{
-      "summary": "`HTML` / `CSS`",
+      "type": "internship",
+      "techtype": "frontend",
+      "place": "SegmentFault",
+      "start": "2016.10",
+      "end": "2016.12",
+      "name": "前端工程师",
+      "stack": ["PHP", "Twig", "Gulp", "Coffeescript", "Bootstrap"],
       "description": [
-        "能够编写模块化的 `CSS`，实现较复杂的布局与CSS3动画、`帧动画`",
-        "熟悉新特性，做到响应式布局和各端适配，有适配1px问题/安卓x5/iphone x的经验"
+        "主站基于PHP+twig+bootstrap+coffeescript，负责开发新模块和维护工作",
+        "开发Geek交友微信小程序（未上线）"
       ]
-    }, {
-      "summary": "`ECMAScript`（`JavaScript`）",
-      "description": [
-        "采用ES6语法，熟悉箭头函数、Object spread/destruct等特性的灵活使用",
-        "HTTP请求一般采用`Axio`以Promise方式调用，Node端采用`async/await`",
-        "团队中使用`Prettier`规范代码格式，并且加入到`git hook`中强制格式化"   
-      ]
-    }]
-    },
+    }
+  ],
+  "skills": [
     {
       "type": "frontend",
       "item": [
         {
+          "summary": "`CSS`",
+          "description": [
+            "熟悉less/scss、css module",
+            "利用px2rem做到响应式布局和各端适配，有适配1px问题/iphone X的经验",
+            "负责过较为复杂的动画实现，包括帧动画"
+          ]
+        },
+        {
           "summary": "`工程化实践`",
           "description": [
-            "提倡保持使用最新版本的工具库，采用Webpack4改造构建，利用Webpack分析插件优化构建时间",
-            "采用`React16` + `Dynamic Polyfill`方案，保证现代浏览器的兼容性（Map/Set）的同时利用React16的新特性，如错误边界检测和Array",
-            "团队采用统一的Redux模板，熟悉Redux设计范式，采用Immutable优化render性能，也有部分Mobx经验",
-            "接入`sentry`监控现网js错误，接入速度上报平台监控页面性能，利用`Skeleton`和动态`import`提高用户体验",
-            "负责开发维护团队公共React组件库，使用storybook作为demo展示，使用babel-plugin-import实现按需加载"
+            "积极使用最新版本的工具库，采用Webpack4改造构建，利用happypack提升构建速度，利用Webpack分析插件优化包体积",
+            "采用`React16` + `Dynamic Polyfill`方案，保证现代浏览器的兼容性（Map/Set）的同时利用React16的新特性，如错误边界检测和Fragment",
+            "团队采用统一的Redux模板，熟悉Redux设计范式",
+            "接入`sentry`监控现网js错误，接入速度上报平台监控页面性能",
+            "负责开发维护团队公共React组件库，负责设计目录结构、部分组件接口、构建、demo展示、npm打包发布"
           ]
-        }, {
+        },
+        {
+          "summary": "`性能优化`",
+          "description": [
+            "注重用户体验上的优化，比如预渲染html、占位skeleton、transition动画，使过渡更自然",
+            "利用`动态import`分离较大的代码快，按需加载，提升首屏性能",
+            "Redux + Immutable + pure render装饰器配合提升redux渲染性能",
+            "熟悉离线包方案原理，了解一些依赖客户端的优化，如预加载webview容器"
+          ]
+        },
+        {
           "summary": "`Native交互相关`",
           "description": [
-            "深入了解Webview和Native交互原理",
+            "了解Webview和Native交互原理",
             "负责开发通用客户端API联调方案",
             "关注业界跨平台解决方案，了解React Native、Electron和Flutter"
           ]
         }
       ]
-  }, {
-    "type": "backend",
-    "item": [
-      {
-        "summary": "`Node`",
-        "description": [
-          "Websocket实现多人在线小游戏",
-          "参与开发工作流cli工具，包括一键发布功能，",
-          "whistle代理方便测试客户端抓包",
-          "[tinypng-cli](https://github.com/LeoEatle/tinypng-cli)"
-        ]
-      }]
-  }, {
-    "type": "miscellaneous",
-    "item": [
-      "react-input-component",
-      "Hexo技术博客，Github托管，travisCI构建",
-      "独自参加Facebook 2018 F8大会"
-    ]
-  }]
+    },
+    {
+      "type": "miscellaneous",
+      "item": [
+        "服务端配置`whistle`代理，方便客户端一键切换前端测试环境",
+        "参与开发工作流cli工具，包括一键发布功能、docker实现单机器多测试环境部署",
+        "`Websocket`实现多人在线小游戏flappy bird",
+        "tiny-png一键解决压缩图片、一键上传七牛图床、爬取百度翻译一键转化英文单词列表为mp3等自制实用cli工具"
+      ]
+    }
+  ]
 }
