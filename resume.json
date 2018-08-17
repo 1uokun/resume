@@ -49,9 +49,7 @@
       "end": "2017",
       "honor": [
         "微信小程序内测期间，连续参加`爱范儿`&`SegmentFault`举办的`黑客马拉松` 24小时开发微信小程序比赛",
-        "react-input-component解决中文输入的`onChange`问题，关注交互细节体验",
-        "自制多种实用cli工具，激发geek创造力",
-        "`Hexo`技术博客，`Github`托管，`travisCI`自动构建，阅读知名库源码，注重知识沉淀",
+        "`Hexo`技术博客，`Github`托管，`travisCI`自动构建，注重知识沉淀",
         "独自参加`Facebook 2018 F8`大会，社交能力得到锻炼"
       ]
     }
@@ -152,7 +150,7 @@
       "type": "miscellaneous",
       "item": [
         "服务端配置`whistle`代理，方便客户端一键切换前端测试环境",
-        "参与开发工作流cli工具，包括一键发布功能、`docker`实现单机器多测试环境部署",
+        "参与开发工作流cli工具，`docker`实现单机器多测试环境部署",
         "`Websocket`实现多人在线小游戏flappy bird",
         "tiny-png一键解决压缩图片、一键上传七牛图床、爬取百度翻译一键转化英文单词列表为mp3等自制实用cli工具"
       ]
