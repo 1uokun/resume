@@ -151,8 +151,9 @@
       "type": "backend",
       "item": [
         {
-          "summary": "测试部署",
+          "summary": "工作流",
           "description": [
+            "jenkins 持续集成构建",
             "服务端配置`whistle`代理，方便客户端一键切换前端测试环境",
             "`docker`实现单机器多测试环境部署"
           ]
