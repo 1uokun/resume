@@ -75,12 +75,12 @@
       "Contributor of feflow, which is a tool for boosting initializing project.  It's an open source project and used by our team."
     ]
   },{
-    "type": "internship",
+    "type": "job",
     "techtype": "frontend",
     "place": "SegmentFault",
     "start": "2016.10",
     "end": "2016.12",
-    "name": "Front End Engineer",
+    "name": "Front End Engineer (intern)",
     "stack": ["PHP", "Twig", "Gulp", "Coffeescript", "Bootstrap"],
     "description": [
       "Develop new module of website based on PHP+twig+bootstrap+coffeescript."

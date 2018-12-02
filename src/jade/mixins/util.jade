@@ -72,6 +72,13 @@ mixin skills_backend(item)
 mixin skills_engineer(item)
   +skills_basic(item)(attributes)
 
+
+mixin skills_opensource(item)
+  ul.skills-description.skills-miscellaneous.timeline-content
+      each desc in item.item
+        li.skills-item-description
+          span!= highlight(desc)
+
 mixin skills_language(item)
   +skills_basic(item)(attributes)
 

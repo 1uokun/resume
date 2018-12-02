@@ -1,0 +1,149 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "刘怡涛 - 个人简历",
+  "name": "刘怡涛",
+  "repo": "https://github.com/leoeatle/resume.git",
+  "job_description": ["前端工程师"],
+  "contact": {
+    "email": "liuyitao811@hotmail.com",
+    "wechat": {
+      "id": "LeoEatle",
+      "qrcode": "static/wechat.png"
+    },
+    "sinaweibo": {
+      "id": "怡涛－在妖都在暨大",
+      "url": "http://weibo.com/liuyitao811/"
+    },
+    "github": {
+      "id": "LeoEatle"
+    },
+    "blog": {
+      "url": "http://leoeatle.github.io/techBlog"
+    }
+  },
+  "links": [
+    {
+      "type": "repo",
+      "url": "https://github.com/LeoEatle/resume"
+    },
+    {
+      "type": "pdf",
+      "url": "static/leoeatle.pdf"
+    },
+    {
+      "type": "zhihu",
+      "url": "https://www.zhihu.com/people/leoeatle"
+    },
+    {
+      "type": "doubanbook",
+      "url": "https://www.douban.com/people/58703417/"
+    }
+  ],
+  "education": [
+    {
+      "type": "undergraduate",
+      "name": "暨南大学",
+      "major": "计算机科学技术（全英）",
+      "start": "2013",
+      "end": "2017",
+      "honor": [
+        "在校期间参加微信小程序黑客马拉松并获得最具创新奖",
+        "TEDxJNU 成员，负责技术相关"
+      ]
+    }
+  ],
+  "language": [
+    {
+      "type": "english",
+      "certificate": [],
+      "description": [
+        "国际学院采用全英教学，使用英文经典计算机教材",
+        "能浏览Github、StackOverFlow、Medium、Leetcode等社区，能查阅英文文档并参与翻译",
+        "积极关注国内外技术最新动态，参加过Facebook F8、SFDC等开发者大会"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "type": "job",
+      "place": "腾讯SNG 互动视频部",
+      "start": "2017.9",
+      "end": "目前",
+      "name": "前端工程师",
+      "stack": ["React", "Less", "Webpack", "Redux", "Typescript", "Node"],
+      "description": [
+        "参与开发多个视频直播产品（`React`、`Redux`、`Webpack`），包括PC端和移动端",
+        "负责B侧数据平台开发，维护基于`Express`的监管平台",
+        "负责维护团队使用的React组件库，基于组件库支持运营活动的快速开发",
+        "支持、完善`feflow`，一个团队通用的工作流工具，优化项目结构、构建配置以及规范基于`Jenkins`的CI开发测试流程"
+      ]
+    },
+    {
+      "type": "internship",
+      "techtype": "frontend",
+      "place": "SegmentFault",
+      "start": "2016.10",
+      "end": "2016.12",
+      "name": "前端工程师",
+      "stack": ["PHP", "Twig", "Gulp", "jQuery", "Bootstrap"],
+      "description": [
+        "主站基于`PHP`+twig+bootstrap+jQuery，负责开发新模块和维护工作"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "type": "frontend",
+      "item": [
+        {
+          "summary": "CSS",
+          "description": [
+            "熟悉`less/scss`、`css module`",
+            "有适配移动端各种问题的经验，比如界面比例缩放、移动端浏览器兼容性等问题",
+            "负责过较为复杂的动画实现，包括`帧动画`、`SVG`动效"
+          ]
+        },
+        {
+          "summary": "工程化实践",
+          "description": [
+            "熟悉现代前端技术工具，能熟练解决构建上遇到的问题（Webpack、Babel）",
+            "参与`feflow`前端工作流工具构建器和脚手架的开发，参与开源化建设",
+            "完善项目的post scripts（prettier, commitzen），遵循基于Jenkins CI和基于Git MR/PR的测试发布工作流程，提高开发效率和代码质量",
+            "接入`sentry`监控现网错误，接入速度上报平台监控页面性能"
+          ]
+        },
+        {
+          "summary": "性能优化",
+          "description": [
+            "注重用户体验上的优化，尝试过预渲染html、占位`skeleton`骨架、transition动画等方案",
+            "利用`动态import`分离较大的代码快，按需加载，提升首屏性能",
+            "`Redux` + `Immutable`配合提升redux渲染性能",
+            "熟悉`离线包`方案原理，了解一些依赖客户端的优化，如预加载webview容器"
+          ]
+        },
+        {
+          "summary": "Native",
+          "description": [
+            "了解`Webview`和`Native`交互原理",
+            "积极与客户端开发同事沟通，开发通用的客户端API联调页面",
+            "关注业界跨平台解决方案，了解微信小程序原理"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "backend",
+      "item": [
+        {
+          "summary": "Node",
+          "description": [
+            "熟悉Node在React SSR中的应用，了解其潜在问题及解决方案",
+            "了解`protobuf`，熟悉protobuf数据在Node中的处理",
+            "了解Node技术在数据中台中的优势（直连后台微服务），并在项目中进行实践"
+          ]
+        }
+      ]
+    }
+  ]
+}
