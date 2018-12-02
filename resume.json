@@ -73,10 +73,12 @@
       "name": "前端工程师",
       "stack": ["React", "Less", "Webpack", "Redux", "Typescript", "Node"],
       "description": [
-        "参与开发多个视频直播产品（`React`、`Redux`、`Webpack`），包括PC端和移动端",
-        "负责B侧数据平台开发，维护基于`Express`的监管平台",
-        "负责维护团队使用的React组件库，基于组件库支持运营活动的快速开发",
-        "支持、完善`feflow`，一个团队通用的工作流工具，优化项目结构、构建配置以及规范基于`Jenkins`的CI开发测试流程"
+        "参与开发多个视频直播PC端和移动端中的内嵌web页，包括个人中心、榜单、房间设置等功能的开发，采用基于`React`、`Redux`、`Webpack`的多页面、共模块结构",
+        "负责B侧数据平台开发，参与维护基于`Express`的监管平台",
+        "参与每月游戏活动页面的开发，熟悉帧动画的应用",
+        "负责维护团队使用的React组件库，熟悉React组件设计，熟悉webpack配置、npm包规范，使用prettier和commitzen规范代码格式和commit提交",
+        "支持、完善`feflow`，一个团队通用的工作流工具，优化脚手架项目结构、和构建配置",
+        "参与建设基于Jenkins的CI/CD构建流程"
       ]
     },
     {
@@ -108,7 +110,7 @@
           "summary": "工程化实践",
           "description": [
             "熟悉现代前端技术工具，能熟练解决构建上遇到的问题（Webpack、Babel）",
-            "参与`feflow`前端工作流工具构建器和脚手架的开发，参与开源化建设",
+            "参与`feflow`前端工作流工具的开发，参与开源化建设",
             "完善项目的post scripts（prettier, commitzen），遵循基于Jenkins CI和基于Git MR/PR的测试发布工作流程，提高开发效率和代码质量",
             "接入`sentry`监控现网错误，接入速度上报平台监控页面性能"
           ]
