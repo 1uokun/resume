@@ -2,10 +2,10 @@
 {
   "data_lang": "en-US",
   "ga_id": "UA-63818301-2",
-  "resume_title": "Liu Yitao - Resume",
-  "name": "Liu Yitao",
+  "resume_title": "Yitao Liu - Resume",
+  "name": "Yitao Liu",
   "repo": "https://github.com/leoeatle/resume.git",
-  "job_description": ["前端工程师"],
+  "job_description": ["Front End Engineer"],
   "contact": {
     "email": "liuyitao811@hotmail.com",
     "wechat": {
@@ -20,7 +20,7 @@
       "id": "LeoEatle"
     },
     "blog": {
-      "url": "http://istillhaveboobs.com"
+      "url": "http://leoeatle.github.io/techBlog"
     }
   },
   "links": [{
@@ -41,87 +41,59 @@
    "education": [{
     "type": "undergraduate",
     "name": "Jinan University",
-    "major": "Computer Science",
+    "major": "Computer Science (International)",
     "start": "2013",
     "end": "2017",
     "honor": [
-      "Star of JNU"
+      "Creative Winner of Hackthon"
     ]
   }],
   "language": [{
-    "type": "english",
+    "type": "English",
     "certificate": [{
-      "type": "CET-4",
-      "full": "710",
-      "score": "550"
-    }, {
-      "type": "CET-6",
-      "full": "710",
-      "score": "452"
+      "type": "Tofel",
+      "full": "120",
+      "score": "83"
     }],
     "description": [
-      "Read professional books in English",
-      "Watch Cousera or other courses in English",
-      "Visit StackOverFlow、LeetCode、Codepen"
+      "Read professional books, documents and other resources in English",
+      "Visit Facebook F8 developer conference.",
+      "Visit StackOverFlow、LeetCode and Medium. Learn about the trending of opensource technology."
     ]
   }],
   "experience": [{
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "Shanghai UnionPay",
-    "start": "2016.06",
-    "end": "2016.09",
-    "name": "Fron-end Engineer",
+    "type": "job",
+    "place": "Tencent",
+    "start": "2017.9",
+    "end": "current",
+    "name": "Frontend Engineer",
+    "stack": ["React", "Less", "Webpack", "Redux", "Typescript", "Node"],
     "description": [
-      "use `React.js` in Cordeva in iOS/Android to develop Hybrid app",
-      "Solve CSRF problems in the previous web pages using token in cookies",
-      "Building the page of list of Sales. Develop RESTful API with the interface from Front-end"
-    ],
-    "stack": ["React.js", "Redux","Gulp", "Webpack", "node.js", "Babel"],
-    "compatibility": "IE8+"
+      "Develop Hybird app based on `React`, `Redux` and `Webpack`. The app is for interactive video chatting and gaming. It lauches both PC and mobile platform.",
+      "Maintain the React component library used in our team. Optimize `Webpack` configuration and CI building (based on `Jenkins`). ",
+      "Develop data platform for streamers based on `Express` and `Node`.",
+      "Contributor of feflow, which is a tool for boosting initializing project.  It's an open source project and used by our team."
+    ]
   },{
     "type": "internship",
     "techtype": "frontend",
-    "place": "LanHai Internet",
-    "start": "2016.01",
-    "end": "2016.02",
-    "name": "Front-end Intern",
+    "place": "SegmentFault",
+    "start": "2016.10",
+    "end": "2016.12",
+    "name": "Front End Engineer",
+    "stack": ["PHP", "Twig", "Gulp", "Coffeescript", "Bootstrap"],
     "description": [
-      "Using DOM API to build web pages and design the page style",
-      "Learn to config the server and Nginx"
-    ],
-    "stack": ["jqueryui", "bootstrap", "jquery", "jquery-mobile", "actionscript"],
-    "compatibility": "IE8+"
-  },{
-    "type": "project",
-    "techtype": "frontend",
-    "name": "94 OneSite",
-    "description": [
-      "Use `React`, `Gulp`, `Babel`, `Browserify`, `Less` technology Stack",
-      "Try to use the React component from the Github. And try to build my own UI component",
-      "Use ES6 grammar and use ESlint as the coding standard"
-    ],
-    "stack": ["React.js", "Gulp", "Babel", "node.js", "SpringMVC"],
-    "compatibility": "IE8+"
+      "Develop new module of website based on PHP+twig+bootstrap+coffeescript."
+    ]
   },{
     "type":"project",
     "techtype": "frontend",
-    "name": "Lara Run（H5跑酷游戏）",
+    "name": "Lara Run（web game）",
     "description":[
         "Use Phaser Framework to develop html5 game",
-        "Read the source code of Phaser and understand the operation with Canvas",
         "Use SVG to make the animation with route of SVG. Use fullpage.js to build landing page"
     ]
-  },{
-  	"type":"project",
-  	"techtype": "Python",
-  	"name": "搜狐军事网站爬虫",
-  	"description":[
-  		"Use the library of python to build a crawer to get the news on the website",
-  		"Analyse the frequncy of the every word in the news and produce a `one sentence news`",
-      "Use `weka` to analyze the statistics data for data mining"
-  	]
-  	}
+  }
   ],
   "skills": [{
     "type": "frontend",
@@ -132,64 +104,49 @@
         "Be familar of the new features of standard `HTML5`/`CSS3`. Building Responsive Layout and compatible with popular browsers"
       ]
     }, {
-      "summary": "`ECMAScript`（`JavaScript`）",
-      "description": [
-        "Be familar with `ECMAScript` and understand principle such as prototype chain, closure ",
-        "Understand the new standard of `ES6` and use `Babel` to compile ES6 in project",
-        "Learn about the various javascipt plugins in the Github and try to use reveal.js, motto.js in my blog and personal website"
-      ]
-    }, {
-      "summary": "`DOM` / `BOM` 及常见 `Web API`",
-      "description": [
-        "Understand the origin `DOM`. Experienced in mobile developing",
-        "Understand the building of DOM tree. Learn about the Cache Control of browsers."
-      ]
-    }, {
       "summary": "Front End Engineering",
       "description": [
-        "`React.js`，｀Vue.js｀,`Angular.js`and other frameworks",
-        "`jQuery` / `jQuery UI` / `Bootstrap`",
-        "`Sea.js` / `RequireJS` / `Browserify` / `WebPack` and other function to solve javascript module problem",
-        "`Less` / `Sass` / `PostCSS`  pre-proccess/post-process tools",
-        "Use Chrome Develop Tools and `Webstorm` to debug"
+        "Familar with modern web technology and have rich exprience dealing with webpack, babel configuration.",
+        "Contributing `feflow` and join the open source work including finish generator and `feflow eject` function.",
+        "Add prettier and commitzen to project. Use `Jenkins` CI for development efficiency and code quality.",
+        "Use `sentry` to monitor the errors."
       ]
     }]
   }, {
     "type": "backend",
     "item": [{
-      "summary": "`Node.js`",
+      "summary": "`Node`",
       "description": [
-        "Use `Express` to build simple back-end program. Using `npm` as the package manager",
-        "Learn the asynchronous I/O and event driving server module. Understand popular solution of asynchronous programming"
+        "Familiar with React SSR. ",
+        "Use NodeJS to connect front end with micro service in back end. "
       ]
     }, {
       "summary": "`Python`",
       "description": [
-        "Building web application with Flask frameworks. Understand Socket programming",
-        "Use Python to build SDN with Mininet. Understand Firewall, flow control.",
+        "Building web application with Flask frameworks.",
         "Practice algorithm with Python on the Leetcode"
       ]
     }, {
     	"summary": "`Java`",
     	"description":[
     		"Developing experience with JSP. Develop `DAO Layer`, `Servlet` and communicate with front-end with AJAX ",
-        "Be familar with Eclipse. Know about openxava, Vaadin",
-        "Using API provided by Weka to do data mining"
+        "Use Weka to do data mining"
     	]
     }, {
-      "summary": "`System`",
+      "summary": "`Others`",
       "description": [
-        "Using Cloud Server to build my own server and use Linux like Centos/Ubuntu",
-        "Like both powershell on windows and bash on Mac OS",
-        "Minecraft Server Owner"
+        "Familiar with Cloud Server and Linux like Centos/Ubuntu",
+        "Use `zsh` on Mac OS.",
+        "Familiar with Sketch/Photoshop",
+        "Use `Markdown` to write blog and communicate with others about technology"
       ]
     }]
   }, {
-    "type": "miscellaneous",
+    "type": "Open source project",
     "item": [
-      "Use git to manage code. Use Github to store my code.",
-      "使用Sketch进行前端界面设计Design with Sketch/Photoshop",
-      "Use `Markdown` to write blog and communicate with others about technology"
+      "https://github.com/LeoEatle/react-composition-input",
+      "https://github.com/feflow/feflow",
+      "https://github.com/whtouche/vscode-js-console-utils/pull/15"
     ]
   }]
 }
