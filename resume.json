@@ -1,56 +1,40 @@
 {
   "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "刘怡涛 - 个人简历",
-  "name": "刘怡涛",
-  "repo": "https://github.com/leoeatle/resume.git",
+  "resume_title": "罗坤 - 个人简历",
+  "name": "罗坤",
+  "repo": "https://github.com/1uokun/resume.git",
   "job_description": ["前端工程师"],
   "contact": {
-    "email": "liuyitao811@hotmail.com",
+    "email": "luo300718@gmail.com",
     "wechat": {
-      "id": "LeoEatle",
+      "id": "lk10037",
       "qrcode": "static/wechat.png"
     },
-    "sinaweibo": {
-      "id": "怡涛－在妖都在暨大",
-      "url": "http://weibo.com/liuyitao811/"
-    },
     "github": {
-      "id": "LeoEatle"
+      "id": "1uokun"
     },
     "blog": {
-      "url": "http://leoeatle.github.io/techBlog"
+      "url": "https://www.jianshu.com/u/2bb2acd23c58"
     }
   },
   "links": [
     {
       "type": "repo",
-      "url": "https://github.com/LeoEatle/resume"
+      "url": "https://github.com/1uokun/resume"
     },
     {
       "type": "pdf",
-      "url": "static/leoeatle.pdf"
-    },
-    {
-      "type": "zhihu",
-      "url": "https://www.zhihu.com/people/leoeatle"
-    },
-    {
-      "type": "doubanbook",
-      "url": "https://www.douban.com/people/58703417/"
+      "url": "static/1uokun.pdf"
     }
   ],
   "education": [
     {
       "type": "undergraduate",
-      "name": "暨南大学",
-      "major": "计算机科学技术（全英）",
-      "start": "2013",
-      "end": "2017",
-      "honor": [
-        "在校期间参加微信小程序黑客马拉松并获得最具创新奖",
-        "TEDxJNU 成员，负责技术相关"
-      ]
+      "name": "成都东软学院",
+      "major": "电子商务",
+      "start": "2014",
+      "end": "2018"
     }
   ],
   "language": [

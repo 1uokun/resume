@@ -10,8 +10,8 @@ block education
         dl.education-description.timeline-content
           dt.education-name= item.name
           dd.education-major= item.major + education_type[item.type]
-          each honor in item.honor
-            dd.education-honor!= highlight(honor)
+//-           each honor in item.honor
+//-             dd.education-honor!= highlight(honor)
 
 
 block language
@@ -49,5 +49,5 @@ block links
 
 block repo
   p
-    | This resume is generated with Gulp, Less and Jade by 
+    | This resume is generated with Gulp, Less and Jade by
     | #[a(href="https://github.com/joyeecheung/resume") Joyee Cheung&#39;s resume generator].
