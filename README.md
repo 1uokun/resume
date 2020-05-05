@@ -1,36 +1,70 @@
-## My Resume
+简历
 
-Read resume data from a JSON file and generate a static web page. GitHub Pages support included.
+# 罗坤 Niko
 
-Written with Gulp, Less, and Jade.
 
-## Build
+|邮箱|电话|微信|
+|----|----|----|
+|luo300718@gmail.com|18180478935|lk10037|
 
-1. Run `npm install` to install the dependencies.
-2. Fill your resume data in `resume.json`.
-3. Run `gulp build` to generate the static web page(`dist/index.html`).
-4. Run `gulp server` and visit `http://localhost:8000` if you want to see it hosted locally(make sure the port 8000 is not taken).
+3年前端工作经验 3-years font-end level  <br/>
+专注于web应用和移动端跨平台开发 focused web application & Cross-Platform App
 
-## Deploy to GitHub Pages
 
-1. Set up the SSH git remote `origin` for the project.
-2. After building the web page, run `gulp deploy`.
-3. Everything under `dist` will be pushed to the remote repo's `gh-pages` branch.
+# 技能水平 technical skills
 
-## Develop
+## 最高水平 highest proficiency
+(注：我的大部分工作和辅助项目时间都使用这些技能)<br/>
+(ps: the vast majority of my work and side project time employs these skills)
 
-1. Make sure port 35729(for livereload) and 8000(for the local server) are available.
-2. Run `gulp`, then visit `http://localhost:8000`.
-3. Start development!
+ - **移动端h5应用**，使用`React`和相关工具库（`Redux`，`immutable`, `antd`）
+ - **Mobile HTML5 Application** with React and related tools (`Redux`, `immutable`, `antd`)
 
-## LICENSE
+ - **移动端原生应用**，使用`React Native`和`Android`混合开发  
+ - **Native Application** with `React-Native` & `Android`
 
-(MIT License)
+## 其他经验领域 other areas of experience
+(注：偶尔或过去练习的技能)<br/>
+(ps: skills I practice only occasionally or practiced in the past)
 
-Copyright (c) 2015 Joyee Cheung
+ - **单页面应用**，使用`Vue`和相关工具库（`Vue Router`, `Vux`）
+ - **single-page apps** with `Vue` and related tools (`Vue Router`, `Vux`)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ - **单元测试**`Jest`, **e2e测试**`Detox ` 
+ - **unit testing** by `Jest`, **e2e test** by `Detox`
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ - `node+express+mysql` 开发后台管理系统
+ - use `node+express+mysql` to develop admin management system
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# 值得注意的项目 noteworthy projects
+
+## 基于MuPDF开发PDF阅读器
+在浙江智加的前端部门独立设计和领导开发一个PDF阅读器的Android SDK开发。<br/>
+这个阅读器的主要功能有 <br/>
+ 1. 批注跨平台云存储，并同步到电脑端查看（PC端使用pdf.js 和 svg）；
+ 2. 批注脚本共享，支持多人同时编辑 （websocket）
+ 3. 兼容React-Native
+
+## antd-mobile-rn
+为antd-mobile-rn作出贡献，antd-mobile-rn是ant design组织在RN平台的一个UI库分支。
+主要贡献有：<br/>
+ 1. 对Picker和Modal组件进行issue bug修复
+ 2. 添加e2e测试方案 [Detox-feature](https://github.com/ant-design/ant-design-mobile-rn/pull/778#issuecomment-607599827)
+
+## gis开发
+在成都行创云独立开发高铁工程类gis应用。地图商选择mapbox。<br/>
+主要功能是对地图二次开发，基于开源库react-native-mapbox-gl,<br/>
+热爱开源反哺社区，为其制作了 [中文版的使用demo](https://github.com/1uokun/react-native-mapbox-demo)
+
+
+# 工作经历 employment history
+ - **2018-至今** 浙江智加信息科技有限公司（前端开发，项目负责人）<br/>
+ - **2017-2018** 成都行创云（前端实习）
+
+# 教育背景
+成都东软学院 - 电子商务（本科） 2014-2018
+
+# 更多关于我
+ - github https://github.com/1uokun
+ - 简书 https://www.jianshu.com/u/2bb2acd23c58
+ - segmentfault https://segmentfault.com/u/luokun/notes
