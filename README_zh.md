@@ -1,42 +1,31 @@
-简历
-
-# 罗坤 Niko
+# 罗坤 - 前端开发3年社招
 
 
 |邮箱|电话|微信|
 |----|----|----|
 |📮 luo300718@gmail.com|☎️ [18180478935](tel:18180478935)|💚 [lk10037](http://luokun.oss-cn-hangzhou.aliyuncs.com/resume/lk10037.jpg)|
 
-3年前端工作经验 3-years font-end level  <br/>
-专注于web应用和移动端跨平台开发 focused web application & Cross-Platform App
+3年前端工作经验 <br/>
+专注于web应用和移动端跨平台开发 
 
 
-# 技能水平 technical skills
+# 技能水平
 
-## 最高水平 highest proficiency
-(注：我的大部分工作和辅助项目时间都使用这些技能)<br/>
-(ps: the vast majority of my work and side project time employs these skills)
+## 技术较熟练
 
  - **移动端h5应用**，使用`React`和相关工具库（`Redux`，`immutable`, `antd`）
- - **Mobile HTML5 Application** with React and related tools (`Redux`, `immutable`, `antd`)
 
  - **移动端原生应用**，使用`React Native`和`Android`混合开发  
- - **Native Application** with `React-Native` & `Android`
 
-## 其他经验领域 other areas of experience
-(注：偶尔或过去练习的技能)<br/>
-(ps: skills I practice only occasionally or practiced in the past)
+## 其他经验领域
 
  - **单页面应用**，使用`Vue`和相关工具库（`Vue Router`, `Vux`）
- - **single-page apps** with `Vue` and related tools (`Vue Router`, `Vux`)
 
  - **单元测试**`Jest`, **e2e测试**`Detox ` 
- - **unit testing** by `Jest`, **e2e test** by `Detox`
 
  - `node+express+mysql` 开发后台管理系统
- - use `node+express+mysql` to develop admin management system
 
-# 值得注意的项目 noteworthy projects
+# 值得注意的项目
 
 ## 基于MuPDF开发PDF阅读器 [![GitHub stars](https://img.shields.io/badge/预览照-PDF阅读器-red)](http://luokun.oss-cn-hangzhou.aliyuncs.com/resume/pdf%E9%98%85%E8%AF%BB%E5%99%A8.jpg)
 在浙江智加的前端部门独立设计和领导开发一个PDF阅读器的Android SDK开发。<br/>
@@ -57,7 +46,7 @@
 热爱开源反哺社区，为其制作了 [中文版的使用demo](https://github.com/1uokun/react-native-mapbox-demo)
 
 
-# 工作经历 employment history
+# 工作经历
  - **2018-至今** 浙江智加信息科技有限公司（前端开发，项目负责人）<br/>
  - **2017-2018** 成都行创云（前端实习）
 
