@@ -13,17 +13,15 @@
 
 ## 技术较熟练
 
- - **移动端h5应用**，使用`React`和相关工具库（`Redux`，`immutable`, `antd`）
+ - **移动端h5应用**，使用`React`和相关工具库（`Redux`，`redux-thunk`，`immutable`, `antd`）
 
  - **移动端原生应用**，使用`React Native`和`Android`混合开发  
 
 ## 其他经验领域
 
- - **单页面应用**，使用`Vue`和相关工具库（`Vue Router`, `Vux`）
+ - **`Java`**,**`TypeScript`**
 
  - **单元测试**`Jest`, **e2e测试**`Detox ` 
-
- - `node+express+mysql` 开发后台管理系统
 
 # 值得注意的项目
 
@@ -35,19 +33,25 @@
  3. 兼容React-Native
 
 ## antd-mobile-rn [![GitHub stars](https://img.shields.io/github/stars/ant-design/ant-design-mobile-rn.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/ant-design/ant-design-mobile-rn)
-为antd-mobile-rn作出贡献，antd-mobile-rn是ant design组织在RN平台的一个UI库分支。
+ant-design外部协作者，antd-mobile-rn是ant design组织在RN平台的一个UI库分支。
 主要贡献有：<br/>
- 1. 对Picker和Modal组件进行issue bug修复
+ 1. 3.x到4.x版本更新与维护
  2. 添加e2e测试方案 [Detox-feature](https://github.com/ant-design/ant-design-mobile-rn/pull/778#issuecomment-607599827)
 
-## gis开发 [![GitHub stars](https://img.shields.io/github/stars/1uokun/react-native-mapbox-demo.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/1uokun/react-native-mapbox-demo)
-在成都行创云独立开发高铁工程类gis应用。地图商选择mapbox。<br/>
-主要功能是对地图二次开发，基于开源库react-native-mapbox-gl,<br/>
-热爱开源反哺社区，为其制作了 [中文版的使用demo](https://github.com/1uokun/react-native-mapbox-demo)
+## 其他
+ - [react-native-video-bilibili](https://github.com/1uokun/react-native-video-bilibili) [![GitHub stars](https://img.shields.io/github/stars/1uokun/react-native-video-bilibili.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/1uokun/react-native-video-bilibili)
+ - [react-native-reconnecting-websocket](https://github.com/React-Sextant/react-native-reconnecting-websocket) [![GitHub stars](https://img.shields.io/github/stars/React-Sextant/react-native-reconnecting-websocket.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/React-Sextant/react-native-reconnecting-websocket)
+ - gis开发（实习期） [![GitHub stars](https://img.shields.io/github/stars/1uokun/react-native-mapbox-demo.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/1uokun/react-native-mapbox-demo)
+   
+   在成都行创云独立开发高铁工程类gis应用。地图商选择mapbox。<br/>
+   主要功能是对地图二次开发，基于开源库react-native-mapbox-gl,<br/>
+   热爱开源反哺社区，为其制作了 [中文版的使用demo](https://github.com/1uokun/react-native-mapbox-demo)
 
+<hr/>
+<br/>
 
 # 工作经历
- - **2018-至今** 浙江智加信息科技有限公司（前端开发，项目负责人）<br/>
+ - **2018-至今** 浙江智加信息科技有限公司（前端团队TL）<br/>
  - **2017-2018** 成都行创云（前端实习）
 
 # 教育背景
@@ -56,4 +60,3 @@
 # 更多关于我
  - github https://github.com/1uokun
  - 简书 https://www.jianshu.com/u/2bb2acd23c58
- - segmentfault https://segmentfault.com/u/luokun/notes
