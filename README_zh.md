@@ -1,42 +1,56 @@
-# 罗坤 - 前端开发3年社招(RN)
+# 罗坤 - 前端开发4年内社招
 
 
 |邮箱|电话|微信|
 |----|----|----|
-|📮 luo300718@gmail.com|☎️ [18180478935](tel:18180478935)|💚 [lk10037](http://luokun.oss-cn-hangzhou.aliyuncs.com/resume/lk10037.jpg)|
+|📮 [luo300718@gmail.com](mailto:luo300718@gmail.com)|☎️ [18180478935](tel:18180478935)|💚 [lk10037](http://luokun.oss-cn-hangzhou.aliyuncs.com/resume/lk10037.jpg)|
 
-3年前端工作经验 <br/>
-主要职责是大前端团队建设与架构开发xxx
+ - 掌握原生`JavaScript`
+ - 熟悉主流框架`React`/`React-Native`
+ - 熟悉`webpack`等前端工程化构建
+ - 具有大型前端UI组件库搭建经验
+ - 掌握`Android`开发，对集成原生模块到RN有一定经验
+ - 了解单元测试、e2e测试
+ - 熟练使用git进行代码管理，实现敏捷开发
 
-# 技能水平
-xxx
+# 项目经历
 
-# 业务项目
+## 内部基础建设
 
-## 基于MuPDF开发PDF阅读器 [![GitHub stars](https://img.shields.io/badge/预览照-PDF阅读器-red)](http://luokun.oss-cn-hangzhou.aliyuncs.com/resume/pdf%E9%98%85%E8%AF%BB%E5%99%A8.jpg)
-入职前由于技术瓶颈公司内部较复杂的富交互应用都是购买第三方sdk实现，如pdf阅读器。
-发现痛点后开始刻苦研发独立实现pdf阅读器的Android版本开发。<br/>
- - 主要功能 <br/>
-    - 将批注等编辑功能抽离，实现全平台pdf编辑共享（客户端使用`MuPDF`，PC端使用`pdf.js`+`svg`）
-    - 技术驱动业务，新增实现**可多人实时编辑**功能 （`websocket`）
-    - 兼容React-Native（`NativeModules`）
+ 1. 结合`antd`组件设计思想开发内部公共**业务组件库**并使用私有npm进行管理，**单元测试**覆盖率80%以上
+ 2. 重构`H5`和`PC`老项目，升级框架版本、利用各种性能优化技术和`webpack`打包优化技术进行优化
+ 3. 基于`react-native-webview`+`Worker`实现简易小程序
 
- - 主要业绩<br/>
-    - 取代第三方sdk合作商每年降低运营成本10万
-    - 增强团队建设，点亮`Android`技能树,深入理解`react-native`跨平台开发模式
-    - 让公司在未来具备了这种富交互应用开发能力，不再受制于技术屏障，从外包逐渐向自研转变。
+ - **主要业绩**<br/>
+   1. 业务组件库覆盖公司内所有项目，提高了开发效率
+   2. 增强前端团队建设，助力新人成长
+   3. 重构后的PC中台白屏时间从最高的`8s`降低到`2s`
+   4. 基于简易小程序平台将后期`90%`的轻业务H5化，使得原生应用更加敏捷
 
-## gis开发（实习期） [![GitHub stars](https://img.shields.io/github/stars/1uokun/react-native-mapbox-demo.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/1uokun/react-native-mapbox-demo)
+## 宁波人大履职APP
+该APP是一款移动OA办公应用，除了日常办公使用外，还担负一年一度的**宁波两会**会议期间（场均2k+人）使用。<br/>
+我在该项目中担任前端负责人，从0到1全程跟进，共计开发**2.5**年，主要开发框架为React-Native，及时沉淀技术并开源了许多类库。
+
+ - **主要功能**<br/>
+   1. 借助`开源解析器`二次开发PDF编辑器 [![GitHub stars](https://img.shields.io/badge/预览照-PDF阅读器-red)](http://luokun.oss-cn-hangzhou.aliyuncs.com/resume/pdf%E9%98%85%E8%AF%BB%E5%99%A8.jpg)，并实现多终端（`Android`/`RN`/`H5`/`PC`）运行和PDF批注数据共享
+   2. 技术驱动业务增长，基于PDF编辑器和`Websocket`协议实现在线协同编辑，让APP额外增加卖点
+   3. 结合native和JS端代码进行**埋点**和数据收集，利用钉钉机器人实现**Crash错误监控**及时发送并@指定开发者
    
-   在成都行创云独立开发高铁工程类gis应用。地图商选择mapbox。<br/>
-   主要功能是对地图二次开发，基于开源库react-native-mapbox-gl,<br/>
-   热爱开源反哺社区，为其制作了 [中文版的使用demo](https://github.com/1uokun/react-native-mapbox-demo)
+ - **主要业绩**<br/>
+   1. 独立支撑Android开发，取代第三方sdk合作商每年降低运营成本超10万
+   2. Crash机器人已覆盖所有APP，通过实时推送分析避免了耗时的复测，让crash问题只会发生一次
+
+<br/>
+<br/>
+<hr/>
 
 # 开源项目
 ## [antd-mobile-rn](https://gitHub.com/ant-design/ant-design-mobile-rn) [![GitHub stars](https://img.shields.io/github/stars/ant-design/ant-design-mobile-rn.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/ant-design/ant-design-mobile-rn)
 ant-design外部协作者，antd-mobile-rn是ant design组织在RN平台的一个UI库分支。
 主要贡献：
- - 3.x到4.x版本更新以及日常issue和性能优化等
+ - 升级React-Native依赖版本从0.5x.x适配到0.6x.x
+ - 3.x到4.x版本重构以及日常issue维护
+ - 优化`Provider`组件，拆分Context和对value进行缓存，使得内部组件减少了不必要的刷新，参考[issue#27617](https://github.com/ant-design/ant-design/issues/27617)
  - 完善测试用例，添加e2e测试方案 [Detox-feature](https://github.com/ant-design/ant-design-mobile-rn/pull/778#issuecomment-607599827)
 
 ## [react-native-video-bilibili](https://github.com/1uokun/react-native-video-bilibili) [![GitHub stars](https://img.shields.io/github/stars/1uokun/react-native-video-bilibili.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/1uokun/react-native-video-bilibili)
@@ -46,11 +60,12 @@ react-native-video二次开发，模仿b站客户端视频播放器。
  - 高性能手势/动画实现
 
 ## [react-native-reconnecting-websocket](https://github.com/React-Sextant/react-native-reconnecting-websocket) [![GitHub stars](https://img.shields.io/github/stars/React-Sextant/react-native-reconnecting-websocket.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/React-Sextant/react-native-reconnecting-websocket)
-源码级WebSocket二次开发，支持自动重连
+源码级(基于原型模式)WebSocket二次开发，支持自动重连
 项目亮点：
- - 可配置度高，稳定
- - 月下载量200+，已被多个上线项目使用 <a href="https://npmjs.org/package/react-native-reconnecting-websocket"><img alt="npm version" src="http://img.shields.io/npm/dm/react-native-reconnecting-websocket.svg?style=flat-square"></a>
+ - 兼容老代码、可配置度高、稳定
+ - 月下载量200+，已被多个上线项目使用
 
+<br/>
 <hr/>
 <br/>
 
