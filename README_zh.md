@@ -53,12 +53,6 @@ ant-design外部协作者，antd-mobile-rn是ant design组织在RN平台的一�
  - 优化`Provider`组件，拆分Context和对value进行缓存，使得内部组件减少了不必要的刷新，参考[issue#27617](https://github.com/ant-design/ant-design/issues/27617)
  - 完善测试用例，添加e2e测试方案 [Detox-feature](https://github.com/ant-design/ant-design-mobile-rn/pull/778#issuecomment-607599827)
 
-## [react-native-video-bilibili](https://github.com/1uokun/react-native-video-bilibili) [![GitHub stars](https://img.shields.io/github/stars/1uokun/react-native-video-bilibili.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/1uokun/react-native-video-bilibili)
-react-native-video二次开发，模仿b站客户端视频播放器。
-项目亮点：
- - 纯JavaScript实现
- - 高性能手势/动画实现
-
 ## [react-native-reconnecting-websocket](https://github.com/React-Sextant/react-native-reconnecting-websocket) [![GitHub stars](https://img.shields.io/github/stars/React-Sextant/react-native-reconnecting-websocket.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/React-Sextant/react-native-reconnecting-websocket)
 源码级(基于原型模式)WebSocket二次开发，支持自动重连
 项目亮点：
@@ -70,7 +64,7 @@ react-native-video二次开发，模仿b站客户端视频播放器。
 <br/>
 
 # 工作经历
- - **2018-至今** 浙江智加信息科技有限公司（前端TL）<br/>
+ - **2018-至今** 浙江智加信息科技有限公司<br/>
 
 # 教育背景
 成都东软学院 - 电子商务（本科） 2014-2018
